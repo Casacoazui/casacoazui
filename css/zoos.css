@@ -1,0 +1,76 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {font-family: 'Roboto Slab', serif;
+      font-size: 18px;
+      background: #CAD2C5;}
+
+.container {width: 90%;
+            max-width: 1000px
+            margin: 20px auto;
+            overflow: hidden;
+}
+
+header{background: #fff;}
+
+header nav {width: 100%;}
+
+header nav ul {width: 100%;
+               overflow: hidden;
+               list-style: none;}
+
+header nav ul li {float: left;}
+
+header nav ul li a {text-decoration: none;
+                    display: inline-block;
+                    padding: 15px 20px;
+                    color: #000;}
+
+header nav ul li a:hover {background: #98C948;
+                          color: #fff;}
+
+.image {width: 100%;
+        display:block;}
+
+.image, img{width: 100%;
+            display:block;}
+
+.main {width: 1000px;
+       background: #fff;}
+
+
+.main .posts {padding: 40px;}
+
+.main .posts article h2 {margin-bottom: 20px;
+                        color: #424242;}
+
+.main .posts article p {margin-bottom: 15px;
+                        line-height: 27px;}
+
+#flamingo {width: 136px;
+          height: 158px;
+          backgound: url(flamingo.gif) 0 0;
+          float:right;
+          padding-top: 5px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+}
+
+#mono {width: 136px;
+      height: 158px;
+      background: url(mono.gif) 0,0;
+      float:left;
+      padding-right: 15px;
+      padding-bottom: 10px;
+
+}
+
+footer {width: 100%;
+        background: #fff;
+        color: #000;
+        padding: 15px 0;
+        text-align: center;}
+
+@media screen and (max-width:800px){
+        body {background: #CAD2C5} }

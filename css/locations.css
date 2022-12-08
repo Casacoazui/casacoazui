@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+
+body {background-color: #CAD2C5;
+      font-family: font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto Slab', serif;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+      font-size: 20px;}
+
+.wrapper{width: 100%;
+         margin: 20px auto;
+         overflow: hidden;}
+
+header {background: #98C948;}
+
+header nav {width: 100%;}
+
+header nav ul {overflow:hidden;
+                list-style: none;}
+header nav ul li {float:left;}
+
+header nav ul li a {text-decoration: none;
+                    font-weight: 600;
+                    display: inline-block;
+                    padding: 15px 20px;
+                    color: #BA7B3C;}
+
+header h1 {text-align: center;
+          font-weight: 600;
+           color:#BA7B3C;
+           padding: 10px 10px;}
+
+.main {width: 100%;
+       background: #fff;}
+
+.main .imagen {width:100%;}
+
+.main .imagen img {width: 100%;}
+
+.main .posts {padding: 40px;}
+
+.main .posts article p {margin-bottom: 15px;
+                        line-height: 27px;}
+
+aside {width:100%;
+       background: #161f26;
+       padding: 10px;
+       color: #fff;
+       padding-right: 5px;}
+
+aside .zoologico {margin-bottom: 20px;}
+
+aside  .zoologico h2 {color: #ff8000;}
+
+aside .zoologico ul li a{color: #fff;
+                         text-decoration: none;}
+
+aside .zoologico ul li a:hover{color: #8f8f8f;}
+
+aside .zoologico p {line-height: 37px; }
+
+footer {width: 100%;
+        background: #98C948;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;}
+
+@media screen and (max-width:800px) {
+        main {100%;}
+        aside{100%}
+        footer {100%}
+      }
